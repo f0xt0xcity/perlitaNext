@@ -3,7 +3,7 @@ import axios from 'axios'
 import CardList from '../components/CardList'
 import Layout from '../components/Layout'
 
-const pueblos = () => {
+const Pueblos = () => {
 
   const [pueblos, setPersonajes] = useState([]);
 
@@ -31,4 +31,4 @@ const pueblos = () => {
   )
 }
 
-export default pueblos
+export default Pueblos

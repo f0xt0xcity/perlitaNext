@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 import CardList from '../components/CardList'
 import Layout from '../components/Layout'
 
-const atractivos = () => {
+const Atractivos = () => {
 
   const [atracciones, setAtracciones] = useState([]);
 
@@ -30,4 +30,4 @@ const atractivos = () => {
   )
 }
 
-export default atractivos
+export default Atractivos
