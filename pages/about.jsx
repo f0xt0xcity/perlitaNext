@@ -3,7 +3,7 @@ import CardList from '../components/CardList'
 import Layout from '../components/Layout'
 import styles from '../styles/About.module.css'
 
-const about = () => {
+const About = () => {
 
   const data = [
     { titulo : 'Manuel Infante', texto : 'Desarollo y diseno', imagen : '/img/ManuelInfanteBarbosa.jpg'},
@@ -53,4 +53,4 @@ const about = () => {
   )
 }
 
-export default about
+export default About

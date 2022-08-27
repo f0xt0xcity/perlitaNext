@@ -12,19 +12,12 @@ export default function Home() {
 
   useEffect(() => {
     const consultarApi = async() => {
-      const url = 'http://127.0.0.1/api/atracciones?limite=4';
+      const url = 'https://api.perlitalatapatia.click/api/atracciones?limite=4';
       const { data : informacion } = await axios( url );
       setAtracciones( informacion.atracciones );
     }
     consultarApi();
   }, []);
-
-  const data = [
-    { titulo : 'Teatro degollado', link : 'place', texto : 'Este es un texto de prueba', ubicacion : 'Guadalajara', imagen : '/img/HospicioCabañas.jpg'},
-    { titulo : 'Teatro degollado', link : 'place', texto : 'Este es un texto de prueba', ubicacion : 'Guadalajara', imagen : '/img/HospicioCabañas.jpg'},
-    { titulo : 'Teatro degollado', link : 'place', texto : 'Este es un texto de prueba', ubicacion : 'Guadalajara', imagen : '/img/HospicioCabañas.jpg'},
-    { titulo : 'Teatro degollado', link : 'place', texto : 'Este es un texto de prueba', ubicacion : 'Guadalajara', imagen : '/img/HospicioCabañas.jpg'},
-  ]
 
   return (
     <Layout >

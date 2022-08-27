@@ -3,7 +3,7 @@ import CardList from '../components/CardList'
 import Layout from '../components/Layout'
 import styles from '../styles/Talk.module.css'
 
-const talk = () => {
+const Talk = () => {
 
   const data = [
     { titulo : 'Google', texto : 'Solo tienes que abrir Google assistant y decir "Hablar con Perlita la tapatia".', imagen : '/img/assitant.jpeg'},
@@ -19,4 +19,4 @@ const talk = () => {
   )
 }
 
-export default talk
+export default Talk

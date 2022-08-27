@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/Layout'
 import Place from '../components/Place';
 
-const place = props => {
+const Place = props => {
 
   return (
     <Layout>
@@ -11,4 +11,4 @@ const place = props => {
   )
 }
 
-export default place
+export default Place

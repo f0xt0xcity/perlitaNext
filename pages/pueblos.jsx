@@ -17,13 +17,6 @@ const Pueblos = () => {
     consultarApi()
   }, []);
 
-  const data = [
-    { titulo : 'Chapala', texto : 'Este es un texto de prueba', imagen : '/img/Chapala.png'},
-    { titulo : 'Chapala', texto : 'Este es un texto de prueba', imagen : '/img/Chapala.png'},
-    { titulo : 'Chapala', texto : 'Este es un texto de prueba', imagen : '/img/Chapala.png'},
-    { titulo : 'Chapala', texto : 'Este es un texto de prueba', imagen : '/img/Chapala.png'},
-  ]
-
   return (
     <Layout>
       <CardList datos={ pueblos } titulo={'Pueblos magicos del estado de Jalisco'} ubicacion={ true }/>
