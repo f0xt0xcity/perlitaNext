@@ -18,7 +18,7 @@ const Personajes = () => {
 
   return (
     <Layout>
-      <CardList datos={ personajes } titulo={'Personajes destacados del estado de Jalisco'}/>
+      <CardList categoria={ 'personajes' } datos={ personajes } titulo={'Personajes destacados del estado de Jalisco'}/>
     </Layout>
   )
 }

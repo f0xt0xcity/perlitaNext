@@ -1,8 +1,15 @@
 .footer {
   margin-top: 8rem;
   padding: 2.6rem 2rem;
-  display: grid;
-  grid-template-columns: 2fr 1fr;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+@media (min-width : 772px) { 
+  .footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+ } 
 }
 
 .data__title {

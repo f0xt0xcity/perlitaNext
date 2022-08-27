@@ -13,7 +13,7 @@ const About = () => {
 
   return (
     <Layout>
-      <main className={ styles.container }>
+      <div className={ styles.container }>
         <div className={ styles.data }>
           <h1 className={ styles.title }>Perlita la tapatia</h1>
           <p className={ styles.about }>
@@ -44,10 +44,9 @@ const About = () => {
           </p>
         </div>
         <img src="/img/MyAvatar.png" alt="" className={ styles.img }/>
-      </main>
-
+      </div>
       <div>
-        <CardList titulo={'Nuestro equipo'} datos={ data } grid3={ true }/>
+        <CardList titulo={'Nuestro equipo'} datos={ data } />
       </div>
     </Layout>
   )

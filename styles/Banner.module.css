@@ -8,6 +8,7 @@
   height: 30rem;
   background-image: url('../public/img/guadalajara.webp');
   background-repeat: no-repeat;
+  background-position: bottom center;
   background-size: cover;
   background-attachment: fixed;
 }

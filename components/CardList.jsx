@@ -4,7 +4,7 @@ import styles from "../styles/CardList.module.css";
 import { useRouter } from "next/router";
 
 const CardList = (props) => {
-  const { datos, titulo, grid3, ubicacion } = props;
+  const { datos, titulo, grid3, ubicacion, categoria } = props;
 
 
   return (
@@ -17,6 +17,7 @@ const CardList = (props) => {
             titulo={item.nombre}
             imagen={item.img}
             texto={item.descripcion}
+            categoria = { categoria }
             ubicacion={ubicacion}
             link={item.slug}
           />

@@ -19,7 +19,7 @@ const Pueblos = () => {
 
   return (
     <Layout>
-      <CardList datos={ pueblos } titulo={'Pueblos magicos del estado de Jalisco'} ubicacion={ true }/>
+      <CardList categoria={ 'pueblos' } datos={ pueblos } titulo={'Pueblos magicos del estado de Jalisco'} ubicacion={ true }/>
     </Layout>
   )
 }

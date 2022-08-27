@@ -5,11 +5,11 @@ import { useRouter } from 'next/router'
 
 const Card = props => {
 
-  const { imagen, ubicacion, titulo, texto, link } = props;
+  const { imagen, ubicacion, titulo, texto, link, categoria } = props;
   const router = useRouter();
 
   const onClick = () => {
-    router.push(`/place/${ link }`);
+    router.push(`/${ categoria }/${ link }`);
   };
 
   return (

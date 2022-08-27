@@ -11,7 +11,7 @@ const PlacePage = () => {
   const slug = router.query.slug;
   console.log( slug )
   useEffect(() => {
-    const url = `http://127.0.0.1/api/personajes/${ slug }`;
+    const url = `http://127.0.0.1/api/atractivos/${ slug }`;
     const consultarApi = async() => {
       const { data : informacion } = await axios( url );
       setPersonaje( informacion );
