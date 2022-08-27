@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
 import Layout from '../../components/Layout';
 
-const placePage = () => {
+const PlacePage = () => {
   
   const [personaje, setPersonaje] = useState({});
   
@@ -26,4 +26,4 @@ const placePage = () => {
   )
 }
 
-export default placePage
+export default PlacePage
