@@ -1,0 +1,10 @@
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  padding-top: 8.4rem;
+}
+
+.container__social {
+  box-shadow: 0 20px 25px -10px rgba(0, 0, 0, .5);
+  border-radius: 9px;
+}

@@ -1,0 +1,16 @@
+.main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container {
+  padding: 5rem;
+  margin: 0 auto;
+  display: flex;
+  gap: 2rem;
+}
+
+.img {
+  width: 25rem;
+  border-radius: 9px;
+}

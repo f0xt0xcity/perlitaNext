@@ -1,0 +1,34 @@
+.footer {
+  margin-top: 8rem;
+  padding: 2.6rem 2rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.data__title {
+  font-size: .8rem;
+  color: #7C939D;
+}
+
+.data__text {
+  font-size: .8rem;
+  line-height: 1.8;
+  color: #7C939D;
+}
+
+.footer__links {
+  color: #7C939D;
+  font-weight: 700;
+}
+
+.navegation__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  row-gap: 2rem;
+}
+
+.navegation__item {
+  font-size: 1rem;
+  color: #7C939D;
+}

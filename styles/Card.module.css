@@ -1,0 +1,39 @@
+.card {
+  width: 20rem;
+  box-shadow: 0 20px 25px -10px rgba(0, 0, 0, .5);
+  border-radius: 9px;
+  transition: transform .3s;
+}
+
+.card:hover {
+  transform: translateY( -5px );
+}
+
+.card__img {
+  border-radius: 9px 9px 0 0;
+  width:  100%;
+  height: 16rem;
+  object-fit: cover;
+}
+
+.card__data {
+  padding: 1rem 1.2rem;
+}
+
+.card__ubication {
+  font-size: 1rem;
+  color: #bbb;
+}
+
+.card__title {
+  font-size: 1.2rem;
+}
+
+.card__link {
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+
+.card__text {
+  font-size: 1rem;
+}

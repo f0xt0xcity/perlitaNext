@@ -1,0 +1,38 @@
+.cardList {
+  max-width: 90%;
+  padding-top: 8.4rem;
+  margin: 0 auto;
+}
+
+.title {
+  margin-bottom: 2rem;
+  color: #7C939D;
+}
+
+.cardListGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
+@media (min-width : 772px) { 
+  .cardListGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+ }
+
+
+@media (min-width : 1250px) { 
+  .cardListGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .grid3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+ }

@@ -1,0 +1,28 @@
+.container {
+  max-width: 90%;
+  padding-top: 8.4rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  align-items: center;
+}
+
+.about::first-letter {
+  font-size: 2rem;
+}
+
+.about {
+  line-height: 1.8;
+}
+
+.img {
+
+}
+
+.data {
+
+}
+
+.title {
+  
+}
