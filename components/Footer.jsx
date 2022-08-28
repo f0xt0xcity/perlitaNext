@@ -10,7 +10,9 @@ const Footer = () => {
     { path : '/pueblos', text : 'Pueblos magicos'},
     { path : '/about', text : 'Quien soy?'},
     { path : '/personajes', text : 'Personajes destacados'},
-    { path : '/talk', text : 'Habla conmigo'}
+    { path : '/talk', text : 'Habla conmigo'},
+    { path : 'https://api.perlitalatapatia.click', text : 'API'},
+    { path : '/negocios-locales', text : 'Consumo local'},
   ]
 
 

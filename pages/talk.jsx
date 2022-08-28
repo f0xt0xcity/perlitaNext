@@ -6,10 +6,10 @@ import styles from '../styles/Talk.module.css'
 const Talk = () => {
 
   const data = [
-    { titulo : 'Google', texto : 'Solo tienes que abrir Google assistant y decir "Hablar con Perlita la tapatia".', imagen : '/img/assitant.jpeg'},
-    { titulo : 'Telegram', texto : 'Solo tienes que abrir Telegram y buscar a Perlita la tapatia.', imagen : '/img/telegram.jpeg', link : 'https://t.me/PerlalaTapatia_bot'},
-    { titulo : 'Messenger', texto : 'Solo tienes que abrir Facebook/Messenger y buscar a perlita la tapatia.', imagen : '/img/messenger.jpeg', link : 'https://m.me/perlitalatapatia/'},
-    { titulo : 'Web', texto : 'Dale click a este texto que esta subrayados para ser dirigido.', imagen : '/img/MyAvatar.png', link : '/perlita'},
+    { nombre : 'Google', descripcion : 'Solo tienes que abrir Google assistant y decir "Hablar con Perlita la tapatia".', img : '/img/assitant.jpeg'},
+    { nombre : 'Telegram', descripcion : 'Solo tienes que abrir Telegram y buscar a Perlita la tapatia.', img : '/img/telegram.jpeg', link : 'https://t.me/PerlalaTapatia_bot'},
+    { nombre : 'Messenger', descripcion : 'Solo tienes que abrir Facebook/Messenger y buscar a perlita la tapatia.', img : '/img/messenger.jpeg', link : 'https://m.me/perlitalatapatia/'},
+    { nombre : 'Web', descripcion : 'Dale click a este texto que esta subrayados para ser dirigido.', img : '/img/MyAvatar.png', link : '/perlita'},
   ]
 
   return (
