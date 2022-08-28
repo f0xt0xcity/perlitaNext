@@ -9,19 +9,32 @@
 @media (min-width : 772px) { 
   .header {
     display: grid;
-    flex-direction: row;
     grid-template-columns: 1fr 4fr;
   }
 }
 
+.header__data {
+
+}
+
 .header__img {
+  position: absolute;
+  top: 0%;
+  left: 55%;
+  transform: translate(-50% , 0%);
   width: 4rem;
   border-radius: 50%;
   transition: transform .3s;
 }
 
-.header__img:hover {
-  transform: scale( 1.2 );
+@media (min-width : 762px) { 
+  .header__img {
+    position: inherit;
+    transform: none;
+  }
+  .header__img:hover {
+    transform: scale( 1.2 );
+  }
 }
 
 .navegation {
@@ -52,7 +65,7 @@
   text-decoration: underline;
   color: #744F31;
   transition: all 12s;
-  margin: 0 auto 1.2rem auto;
+  margin: 0 auto 1.8rem auto;
 
 }
 
