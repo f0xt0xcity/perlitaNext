@@ -6,7 +6,7 @@ const Footer = () => {
 
   const navItems = [
     { path : '/', text : 'Inicio'},
-    { path : '/atractivos', text : 'Atractivos turisticos'},
+    { path : '/atracciones', text : 'Atractivos turisticos'},
     { path : '/pueblos', text : 'Pueblos magicos'},
     { path : '/about', text : 'Quien soy?'},
     { path : '/personajes', text : 'Personajes destacados'},
