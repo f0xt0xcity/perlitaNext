@@ -3,8 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  
-  box-shadow: 0 -45px 56px rgb(0 0 0 / 35%)
+  box-shadow: 0 -45px 56px rgb(0 0 0 / 35%);
 }
 
 @media (min-width : 772px) { 
@@ -53,7 +52,8 @@
   text-decoration: underline;
   color: #744F31;
   transition: all 12s;
-  margin-bottom: 1.2rem;
+  margin: 0 auto 1.2rem auto;
+
 }
 
 @media (min-width : 772px) { 

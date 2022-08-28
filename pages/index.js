@@ -18,12 +18,12 @@ export default function Home() {
     }
     consultarApi();
   }, []);
-
+ 
   return (
     <Layout >
       <main>
         <Banner />
-        <CardList titulo={'Atractivos turisticos'} datos={ atracciones } ubicacion = { true }/>
+        <CardList categoria={ 'atracciones' } titulo={'Atractivos turisticos'} datos={ atracciones } ubicacion = { true }/>
       </main>
 
     </Layout >
