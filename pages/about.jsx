@@ -6,7 +6,7 @@ import styles from '../styles/About.module.css'
 const About = () => {
 
   const data = [
-    { nombre : 'Manuel Infante | Desarollo', descripcion : 'Aficionado a la tecnología, entusiasta del conocimiento y siempre dispuesto a aprender. Acérrimo practicante de la informática y el marketing.', img : '/img/Manuel.jpeg'},
+    { nombre : 'Manuel Infante | Desarollo', descripcion : 'Aficionado a la tecnología, entusiasta del conocimiento y siempre dispuesto a aprender. Acérrimo practicante de la informática y el marketing.', img : '/img/manuel.jpeg'},
     { nombre : 'Juan Morales | Copywriter', descripcion : 'Perlita ha sido la puerta que inició el camino de aprendizaje al mundo de los bots. Los errores han sido los mejores maestros, los buenos resultados han sido la mejor recompensa.', img : '/img/juan.jpeg'},
     // { titulo : 'Manuel Infante', texto : 'Este es un texto de prueba', imagen : '/img/ManuelInfanteBarbosa.jpg'},
   ]
