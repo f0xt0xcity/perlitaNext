@@ -18,7 +18,7 @@ const Atractivos = () => {
 
   return (
     <Layout>
-      <CardList categoria={ 'atracciones' } datos={ atracciones} titulo={'Atractivos turisticos de la ciudad'}/>
+      <CardList categoria={ 'atracciones' } datos={ atracciones} titulo={'Atractivos turisticos de la ciudad'}  ubicacion={ true }/>
     </Layout>
   )
 }

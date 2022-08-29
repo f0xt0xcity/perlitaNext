@@ -1,0 +1,24 @@
+
+
+.data {
+  max-width: 90%;
+  margin: 3rem auto 0rem auto;
+  padding-top: 2rem;
+  /* border: 1px solid rgba(0, 0, 0, .5); */
+  /* box-shadow: 0 20px 25px -10px rgba(0, 0, 0, .5); */
+  border-radius: 11px ;
+}
+
+.data__title {
+  margin-bottom: 2rem;
+  color: rgb(144, 99, 55);
+}
+
+.data__text::first-letter {
+  font-size: 2rem;
+}
+
+.data__text {
+  line-height: 1.6;
+  color: #7C939D;
+}

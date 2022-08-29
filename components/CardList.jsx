@@ -9,7 +9,7 @@ const CardList = (props) => {
 
   return (
     <div className={styles.cardList}>
-      <h1 className={styles.title}>{titulo}</h1>
+      <h2 className={styles.title}>{titulo}</h2>
       <div className={grid3 ? styles.grid3 : styles.cardListGrid}>
         {datos.map((item) => (
           <Card
