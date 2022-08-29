@@ -43,7 +43,7 @@ const About = () => {
           hacerlo aún más interactivo, inteligente y útil.
           </p>
         </div>
-        <img src="/img/MyAvatar.png" alt="" className={ styles.img }/>
+        <img src="/img/myAvatar.png" alt="" className={ styles.img }/>
       </div>
       <div>
         <CardList titulo={'Nuestro equipo'} datos={ data } />
