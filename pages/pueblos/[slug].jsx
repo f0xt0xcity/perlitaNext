@@ -7,7 +7,7 @@ const PlacePage = ({ pueblo }) => {
 
   return (
     <Layout>
-      <Place  titulo={ nombre} imagen={ img } descripcion={ descripcion }/>
+      <Place  titulo={ nombre} imagen={ img } descripcion={ descripcion } mapas = { true }/>
     </Layout>
   )
 }
