@@ -11,7 +11,7 @@ const Footer = () => {
     { path : '/about', text : 'Quien soy?'},
     { path : '/personajes', text : 'Personajes destacados'},
     { path : '/talk', text : 'Habla conmigo'},
-    { path : 'https://api.perlitalatapatia.click', text : 'API'},
+    { path : 'https://documenter.getpostman.com/view/22863264/VUxLw8RE', text : 'API'},
     { path : '/negocios-locales', text : 'Consumo local'},
   ]
 
