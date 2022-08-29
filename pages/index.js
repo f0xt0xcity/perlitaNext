@@ -17,7 +17,7 @@ export default function Home() {
     const consultarApi = async() => {
       const urlAtracciones = 'https://api.perlitalatapatia.click/api/atracciones?limite=4';
       const urlPersonajes = 'https://api.perlitalatapatia.click/api/personajes?limite=4';
-      const urlPueblos = 'https://api.perlitalatapatia.click/api/pueblos?limite=4';
+      const urlPueblos = 'https://api.perlitalatapatia.click/api/pueblos?limite=4&desde=3';
       const [ personajesData, pueblosData, atraccionesData ] = await Promise.all([
         axios( urlPersonajes),
         axios( urlPueblos ),
