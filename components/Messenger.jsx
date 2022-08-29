@@ -1,9 +1,9 @@
 import React from 'react'
-
+import Script from 'next/script'
 const Messenger = () => {
   return (
     <>
-      <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+      <Script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></Script>
       <df-messenger
         intent="WELCOME"
         chat-title="Perla-la-tapatia"
