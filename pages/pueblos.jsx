@@ -9,7 +9,7 @@ const Pueblos = () => {
 
   useEffect(() => {
     const consultarApi = async() => {
-      const url = 'https://api.perlitalatapatia.click/api/pueblos';
+      const url = 'https://www.api.perlitalatapatia.click/api/pueblos';
       const { data : informacion } = await axios( url );
       setPersonajes( informacion.pueblos );
     }

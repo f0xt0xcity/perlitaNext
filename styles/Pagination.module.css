@@ -1,0 +1,23 @@
+.list {
+  margin-top: 2rem;
+  padding: 1.6rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+}
+
+.list__activo {
+  margin-right: 1rem;
+  background-color: black;
+  color: #fff;
+  padding: 9px;
+  border-radius: 11px;
+}
+
+.list__inactivo {
+  margin-right: 1rem;
+  color: black;
+  padding: 9px;
+  border-radius: 11px;
+}

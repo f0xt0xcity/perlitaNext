@@ -1,11 +1,10 @@
 import React from "react";
 import Card from "./Card";
 import styles from "../styles/CardList.module.css";
-import { useRouter } from "next/router";
+import Pagination from "./Pagination";
 
 const CardList = (props) => {
-  const { datos, titulo, grid3, ubicacion, categoria, link  } = props;
-
+  const { datos, titulo, grid3, ubicacion, categoria, totalDatos, paginaActual, setPaginaActual  } = props;
 
   return (
     <div className={styles.cardList}>
@@ -24,6 +23,8 @@ const CardList = (props) => {
           />
         ))}
       </div>
+
+      <Pagination totalDatos={ totalDatos } paginaActual={ paginaActual } setPaginaActual={ setPaginaActual }/>
     </div>
   );
 };
