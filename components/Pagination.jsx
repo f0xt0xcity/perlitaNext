@@ -18,7 +18,7 @@ const Pagination = (props) => {
           }
           onClick={() => setPaginaActual(index)}
         >
-          {item}{index}
+          {item}
         </li>
       ))}
     </ul>
