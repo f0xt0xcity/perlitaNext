@@ -1,14 +1,14 @@
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 90%;
-  padding-top: 8.4rem;
   margin: 0 auto;
-  align-items: center;
+  padding-top: 8.4rem;
+  max-width: 90%;
 }
 
 @media (min-width : 772px) { 
   .container {
+    max-width: 90%;
    display: grid;
    grid-template-columns: 3fr 1fr;
  } 
